@@ -15,7 +15,7 @@ void interruption_handler();
 #endif
 
 #ifndef INTERRUPTION_SETUP_H
-#define INTERRUPTION_HANDLER_H
+#define INTERRUPTION_SETUP_H
 
 void setup_sigterm_handler(int* socket_fd, int* server_fd);
 
