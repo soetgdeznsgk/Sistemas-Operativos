@@ -6,6 +6,11 @@
 #include <unistd.h>
 #include <signal.h>
 #include <arpa/inet.h>
+#include <stdbool.h>
+
+#ifndef DIRECCION_SERVIDOR
+#define DIRECCION_SERVIDOR "192.168.0.12"
+#endif
 
 #ifndef INTERRUPTION_HANDLER_H
 #define INTERRUPTION_HANDLER_H 
